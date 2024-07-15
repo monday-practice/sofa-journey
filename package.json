@@ -1,0 +1,17 @@
+{
+  "name": "sofa-journey",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "vite build  \n cp -r supplies dist",
+    "deploy": "gh-pages -d dist",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "three": "^0.166.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3",
+    "vite": "^2.9.18"
+  }
+}

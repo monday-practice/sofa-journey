@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISR</title>
+    <link rel="stylesheet" href="./style.css">
+    <script type="importmap">{
+    </script>
+</head>
+<body>
+    <div id="preload-screen">
+        <div id='pak-text'>
+            <p> Press any key or touch the screen to start</p>
+            <p>A game by Monday.practie, ver 1.0</p>
+        </div>
+    </div>
+    <div id="loading-screen" style="display: none;">
+        <img src="./images/loading1.jpg" alt="Loading Image" id="loading-image">
+        <div id="loading-text">
+            <p></p>
+        </div>
+
+        <div id="loading-bar-container">
+            <div id="loading-bar"></div>
+        </div>
+        <button id="start-button" style="display: none;">Start Game</button>
+    </div>
+
+    <div id="game-container" style="display: none;">
+        <!-- Game canvas will be rendered here -->
+        <div id="overlay">
+            <p>Hey, Sofa!</p>
+            <p>You probably know who I am, and you are always welcome here!</p>
+            <p>I'm so happy you've reached me! </p>
+            <p>You are now free to go.</p>
+            <button id="continueBtn">Continue</button>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script type="module" src="./script.js"></script>
+</body>
+</html>
+
